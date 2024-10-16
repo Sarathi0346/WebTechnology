@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./cals.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <!--Display-->
+
+      <div id="display">
+        <h2 id="exp"></h2>
+        <h2
+          id="result"
+          style="text-align: right; padding: 5px; height: auto"
+        ></h2>
+      </div>
+
+      <!-- buttons -->
+      <div id="inputs">
+        <h3 class="operants" id="no7" onclick="num(0)" value="7">7</h3>
+        <h3 class="operants" id="no8" onclick="num(1)" value="8">8</h3>
+        <h3 class="operants" id="no9" onclick="num(2)" value="8">9</h3>
+        <h3 class="operants" id="no+" onclick="num(3)" value="8">+</h3>
+        <h3 class="operants" id="no4" onclick="num(4)" value="4">4</h3>
+        <h3 class="operants" id="no5" onclick="num(5)" value="5">5</h3>
+        <h3 class="operants" id="no6" onclick="num(6)" value="6">6</h3>
+        <h3 class="operants" id="no-" onclick="num(7)" value="-">-</h3>
+        <h3 class="operants" id="no1" onclick="num(8)" value="1">1</h3>
+        <h3 class="operants" id="no2" onclick="num(9)" value="2">2</h3>
+        <h3 class="operants" id="no3" onclick="num(10)" value="3">3</h3>
+        <h3 class="operants" id="no*" onclick="num(11)" value="*">*</h3>
+        <h3 class="operants" id="noC1" onclick="clear1()" value="C">C</h3>
+        <h3 class="operants" id="no0" onclick="num(13)" value="0">0</h3>
+        <h3 class="operants" id="no=" onclick="cal()" value="=">=</h3>
+        <h3 class="operants" id="no/" onclick="num(15)" value="/">/</h3>
+      </div>
+    </div>
+    <script src="./cals.js"></script>
+  </body>
+</html>
